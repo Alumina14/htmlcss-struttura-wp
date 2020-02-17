@@ -1,0 +1,141 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  margin: 0 25px;
+}
+
+.stileheader{
+  /* DEBUG: Inizio */
+  height: 270px;
+  background-color: red;
+  /* DEBUG: Fine   */
+  margin: 20px 0;
+}
+
+main{
+
+  /* DEBUG: Inizio */
+  background-color: pink;
+  /* DEBUG: Fine */
+}
+
+.stilemain::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left{
+  /* DEBUG: Inizio */
+  height: 500px;
+  background-color: green;
+  /* DEBUG: Fine   */
+  width: 25%;
+  float: left;
+
+}
+
+.divleft{
+background-color: darkblue;
+height: 120px;
+width: 100%;
+margin-bottom: 25px;
+}
+
+.divleft2{
+background-color: lightblue;
+height: 120px;
+width: 100%;
+margin-bottom: 25px;
+}
+
+.divleft3{
+background-color: lightgreen;
+height: 120px;
+width: 100%;
+}
+
+.stilesection{
+  /* DEBUG: Inizio */
+  height: 500px;
+  background-color: blue;
+  /* DEBUG: Fine */
+  width: 40%;
+  float: left;
+  margin: 0 5%;
+}
+
+.right{
+  /* DEBUG: Inizio */
+  height: 500px;
+  background-color: yellow;
+  /* DEBUG: Fine */
+  width: 25%;
+  float: left;
+}
+
+.divright{
+background-color: darkblue;
+height: 120px;
+width: 100%;
+margin-bottom: 25px;
+}
+
+.divright2{
+background-color: red;
+height: 120px;
+width: 100%;
+}
+
+footer{
+  /* DEBUG: Inizio */
+  background-color: grey;
+  height: 200px;
+/* DEBUG: Fine */
+  margin-top: 20px;
+}
+
+.divfooter{
+  background-color: red;
+  height: 120px;
+  width: 20%;
+  float: left;
+}
+
+.divfooter2{
+  background-color: blue;
+  height: 120px;
+  width: 20%;
+  float: left;
+}
+.divfooter3{
+  background-color: green;
+  height: 120px;
+  width: 20%;
+  float: left;
+}
+
+.divfooter4{
+  background-color: yellow;
+  height: 120px;
+  width: 40%;
+  float: left;
+}
+
+.sottofooter{
+  background-color: black;
+  height: 80px;
+  width: 50%;
+  float: left;
+}
+
+.sottofooter2{
+  background-color: red;
+  height: 80px;
+  width: 50%;
+  float: right;
+}
